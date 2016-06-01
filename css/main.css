@@ -149,7 +149,8 @@ img {
 
 .vc-landing .vc-promo--logo-icon {
   float: left;
-  margin: 0; }
+  margin: 0;
+  width: auto; }
   @media (min-width: 1024px) {
     .vc-landing .vc-promo--logo-icon {
       float: none;
