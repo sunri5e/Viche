@@ -148,7 +148,8 @@ img {
       margin-top: 20px; } }
 
 .vc-landing .vc-promo--logo-icon {
-  float: left; }
+  float: left;
+  margin: 0; }
   @media (min-width: 1024px) {
     .vc-landing .vc-promo--logo-icon {
       float: none;
@@ -236,7 +237,7 @@ img {
     @media (min-width: 540px) {
       .vc-promo--app picture,
       .vc-promo--app img {
-        min-width: auto;
+        min-width: 0;
         width: auto; } }
   .vc-promo--app + .vc-promo--app {
     margin-top: 10px; }
