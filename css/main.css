@@ -1,0 +1,342 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("../fonts/31310E_2_0.eot");
+  src: url("../fonts/31310E_2_0.eot?#iefix") format("embedded-opentype"), url("../fonts/31310E_2_0.woff2") format("woff2"), url("../fonts/31310E_2_0.woff") format("woff"), url("../fonts/31310E_2_0.ttf") format("truetype");
+  font-weight: bold; }
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("../fonts/31310E_5_0.eot");
+  src: url("../fonts/31310E_5_0.eot?#iefix") format("embedded-opentype"), url("../fonts/31310E_5_0.woff2") format("woff2"), url("../fonts/31310E_5_0.woff") format("woff"), url("../fonts/31310E_5_0.ttf") format("truetype");
+  font-weight: normal; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Proxima Nova";
+  color: #666666;
+  line-height: 1.25;
+  font-weight: normal; }
+  @media (min-width: 500px) {
+    body {
+      font-size: 22px;
+      line-height: 1.182; } }
+  @media (min-width: 1024px) {
+    body {
+      font-size: 18px;
+      line-height: 1.333; } }
+  @media (min-width: 1281px) {
+    body {
+      font-size: 22px;
+      line-height: 1.182; } }
+
+.vc-page-title {
+  font-size: 36px;
+  color: black;
+  font-weight: bold;
+  line-height: 1.167;
+  margin: 30px 0 0; }
+  @media (min-width: 540px) {
+    .vc-page-title {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 40px;
+      font-size: 48px; } }
+  @media (min-width: 1024px) {
+    .vc-page-title {
+      font-size: 72px; } }
+
+.vc-strong {
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  line-height: 1.25;
+  margin: 25px 0; }
+  @media (min-width: 500px) {
+    .vc-strong {
+      font-size: 18px; } }
+
+h3 {
+  text-transform: uppercase;
+  margin: 25px 0 0;
+  font-size: 16px;
+  color: black; }
+  @media (min-width: 500px) {
+    h3 {
+      font-size: 18px; } }
+  @media (min-width: 768px) {
+    h3 {
+      font-size: 24px; } }
+
+p {
+  margin: 0; }
+  @media (min-width: 500px) {
+    p {
+      font-size: 18px;
+      line-height: 24px; } }
+
+picture,
+img {
+  display: block;
+  max-width: 100%; }
+
+.vc-container {
+  padding: 30px 20px 20px; }
+  @media (min-width: 768px) {
+    .vc-container {
+      padding-left: 50px;
+      padding-right: 50px; } }
+  @media (min-width: 1024px) {
+    .vc-container {
+      width: 900px;
+      padding-left: 0;
+      padding-right: 0;
+      margin: 0 auto; } }
+  @media (min-width: 540px) {
+    .vc-container.vc-landing {
+      padding: 60px 25px 20px; } }
+  @media (min-width: 1024px) {
+    .vc-container.vc-landing {
+      padding: 0; } }
+
+@media (min-width: 1024px) {
+  .vc-promo--content {
+    width: 420px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    margin-left: 60px; } }
+
+@media (min-width: 1280px) {
+  .vc-promo--content {
+    margin-left: 120px;
+    width: 500px; } }
+
+@media (min-width: 540px) {
+  .vc-landing .vc-promo--logo {
+    width: 285px;
+    margin: 0 auto; } }
+
+@media (min-width: 1024px) {
+  .vc-landing .vc-promo--logo {
+    width: auto;
+    margin-left: -18px; } }
+
+@media (min-width: 1280px) {
+  .vc-landing .vc-promo--logo {
+    margin-left: -30px; } }
+
+.vc-landing .vc-promo--logo:after, .vc-landing .vc-promo--logo:before {
+  content: ' ';
+  display: table; }
+
+.vc-landing .vc-promo--logo:after {
+  clear: both; }
+
+.vc-landing .vc-promo--logo + * {
+  margin-top: 10px; }
+  @media (min-width: 540px) {
+    .vc-landing .vc-promo--logo + * {
+      margin-top: 40px; } }
+  @media (min-width: 1024px) {
+    .vc-landing .vc-promo--logo + * {
+      margin-top: 20px; } }
+
+.vc-landing .vc-promo--logo-icon {
+  float: left; }
+  @media (min-width: 1024px) {
+    .vc-landing .vc-promo--logo-icon {
+      float: none;
+      margin-bottom: 30px; } }
+
+.vc-landing .vc-promo--logo-text {
+  font-size: 36px;
+  color: black;
+  font-weight: bold;
+  line-height: 36px;
+  display: inline-block;
+  padding: 3px 0 0 10px; }
+  @media (min-width: 540px) {
+    .vc-landing .vc-promo--logo-text {
+      font-size: 72px;
+      line-height: 0.583;
+      padding: 20px 0 0 30px; } }
+  @media (min-width: 1024px) {
+    .vc-landing .vc-promo--logo-text {
+      padding-left: 20px; } }
+  @media (min-width: 1280px) {
+    .vc-landing .vc-promo--logo-text {
+      padding-left: 30px; } }
+
+@media (min-width: 540px) {
+  .vc-promo--logo-icon {
+    width: 68px;
+    margin: 0 auto; } }
+
+@media (min-width: 1024px) {
+  .vc-promo--logo-icon {
+    width: 98px; } }
+
+@media (min-width: 500px) {
+  .vc-promo--text {
+    text-align: center; } }
+
+@media (min-width: 1024px) {
+  .vc-promo--text {
+    text-align: left; } }
+
+.vc-landing .vc-promo--text + * {
+  margin-top: 25px; }
+  @media (min-width: 540px) {
+    .vc-landing .vc-promo--text + * {
+      margin-top: 55px; } }
+
+.vc-promo--apps:after, .vc-promo--apps:before {
+  content: ' ';
+  display: table; }
+
+.vc-promo--apps:after {
+  clear: both; }
+
+@media (min-width: 540px) {
+  .vc-promo--apps {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto; } }
+
+@media (min-width: 1024px) {
+  .vc-promo--apps {
+    width: 420px; } }
+
+@media (min-width: 1280px) {
+  .vc-promo--apps {
+    width: 500px; } }
+
+.vc-promo--app {
+  display: block; }
+  @media (min-width: 540px) {
+    .vc-promo--app:first-child {
+      float: left; }
+    .vc-promo--app:last-child {
+      float: right; } }
+  .vc-promo--app picture,
+  .vc-promo--app img {
+    width: 100%;
+    margin: 0 auto; }
+    @media (min-width: 320px) {
+      .vc-promo--app picture,
+      .vc-promo--app img {
+        width: auto;
+        min-width: 280px; } }
+    @media (min-width: 540px) {
+      .vc-promo--app picture,
+      .vc-promo--app img {
+        min-width: auto;
+        width: auto; } }
+  .vc-promo--app + .vc-promo--app {
+    margin-top: 10px; }
+    @media (min-width: 540px) {
+      .vc-promo--app + .vc-promo--app {
+        margin-top: 0; } }
+
+.vc-promo--image-wrapper {
+  margin-top: 30px;
+  position: relative;
+  height: 615px;
+  overflow: hidden;
+  margin-left: -20px;
+  margin-right: -20px; }
+  @media (min-width: 400px) {
+    .vc-promo--image-wrapper {
+      height: auto; } }
+  @media (min-width: 540px) {
+    .vc-promo--image-wrapper {
+      margin-top: 60px; } }
+  @media (min-width: 1024px) {
+    .vc-promo--image-wrapper {
+      position: fixed;
+      right: 50%;
+      top: 13%;
+      margin-top: 0; } }
+
+.vc-promo--image {
+  width: 371px;
+  max-width: none;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0); }
+  @media (min-width: 400px) {
+    .vc-promo--image {
+      width: auto;
+      max-width: 100%;
+      position: static;
+      left: auto;
+      -webkit-transform: translate(0, 0);
+              transform: translate(0, 0); } }
+  @media (min-width: 400px) {
+    .vc-promo--image img,
+    .vc-promo--image picture {
+      margin: 0 auto; } }
+
+.vc-promo--nav,
+.vc-nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-top: -40px;
+  position: relative;
+  z-index: 1;
+  text-align: center; }
+  @media (min-width: 400px) {
+    .vc-promo--nav,
+    .vc-nav {
+      margin-top: -50px; } }
+  @media (min-width: 1024px) {
+    .vc-promo--nav,
+    .vc-nav {
+      position: fixed;
+      left: 50%;
+      margin-left: 37px;
+      bottom: 20px; } }
+  @media (min-width: 1280px) {
+    .vc-promo--nav,
+    .vc-nav {
+      margin-left: 97px; } }
+  @media (min-width: 460px) {
+    .vc-promo--nav > li,
+    .vc-nav > li {
+      display: inline-block;
+      padding: 0 23px; } }
+  .vc-promo--nav > li > a,
+  .vc-nav > li > a {
+    display: block;
+    font-size: 18px;
+    font-family: "Proxima Nova";
+    color: #666666;
+    line-height: 2.333;
+    text-decoration: none; }
+    .vc-promo--nav > li > a.active,
+    .vc-nav > li > a.active {
+      color: #8d49aa;
+      font-weight: bold; }
+
+.vc-nav {
+  position: static;
+  margin-top: 0; }
+  @media (min-width: 400px) {
+    .vc-nav {
+      margin-top: 0;
+      margin-top: 50px; } }
+  @media (min-width: 1024px) {
+    .vc-nav {
+      position: static;
+      margin-left: 0; } }
+  @media (min-width: 1280px) {
+    .vc-nav {
+      margin-left: 0; } }
