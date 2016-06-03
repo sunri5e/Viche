@@ -85,6 +85,9 @@ img {
 
 .vc-container {
   padding: 30px 20px 20px; }
+  @media (min-width: 540px) {
+    .vc-container {
+      padding-top: 50px; } }
   @media (min-width: 768px) {
     .vc-container {
       padding-left: 50px;
@@ -95,12 +98,14 @@ img {
       padding-left: 0;
       padding-right: 0;
       margin: 0 auto; } }
-  @media (min-width: 540px) {
-    .vc-container.vc-landing {
-      padding: 60px 25px 20px; } }
-  @media (min-width: 1024px) {
-    .vc-container.vc-landing {
-      padding: 0; } }
+  .vc-container.vc-landing {
+    padding: 30px 20px 20px; }
+    @media (min-width: 540px) {
+      .vc-container.vc-landing {
+        padding: 60px 25px 20px; } }
+    @media (min-width: 1024px) {
+      .vc-container.vc-landing {
+        padding: 0; } }
 
 @media (min-width: 1024px) {
   .vc-promo--content {
@@ -155,6 +160,9 @@ img {
     .vc-landing .vc-promo--logo-icon {
       float: none;
       margin-bottom: 30px; } }
+  @media (max-height: 650px) and (min-width: 1281px) {
+    .vc-landing .vc-promo--logo-icon img {
+      max-height: 150px; } }
 
 .vc-landing .vc-promo--logo-text {
   font-size: 36px;
@@ -197,6 +205,9 @@ img {
   @media (min-width: 540px) {
     .vc-landing .vc-promo--text + * {
       margin-top: 55px; } }
+  @media (max-height: 650px) and (min-width: 1281px) {
+    .vc-landing .vc-promo--text + * {
+      margin-top: 40px; } }
 
 .vc-promo--apps:after, .vc-promo--apps:before {
   content: ' ';
@@ -213,11 +224,16 @@ img {
 
 @media (min-width: 1024px) {
   .vc-promo--apps {
-    width: 420px; } }
+    width: 420px;
+    margin: 0; } }
 
-@media (min-width: 1280px) {
+@media (min-width: 1281px) {
   .vc-promo--apps {
     width: 500px; } }
+
+@media (max-height: 650px) and (min-width: 1281px) {
+  .vc-promo--apps {
+    width: 420px; } }
 
 .vc-promo--app {
   display: block; }
@@ -240,6 +256,10 @@ img {
       .vc-promo--app img {
         min-width: 0;
         width: auto; } }
+    @media (max-height: 650px) and (min-width: 1281px) {
+      .vc-promo--app picture,
+      .vc-promo--app img {
+        max-height: 60px; } }
   .vc-promo--app + .vc-promo--app {
     margin-top: 10px; }
     @media (min-width: 540px) {
@@ -323,6 +343,9 @@ img {
     color: #666666;
     line-height: 2.333;
     text-decoration: none; }
+    .vc-promo--nav > li > a:hover,
+    .vc-nav > li > a:hover {
+      color: #8d49aa; }
     .vc-promo--nav > li > a.active,
     .vc-nav > li > a.active {
       color: #8d49aa;
